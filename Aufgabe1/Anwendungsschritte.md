@@ -13,5 +13,5 @@ Starten Sie nun das Notebook des Clients.
 ## Fehlerbehebung 
 Wenn der Fehler "Socket already in use" kommt, muss man die Prozesse auf den Port beenden, sodass er wieder freigegeben ist. <br>
 Im Terminal in Mac: <br>
-  sudo lsof -i tcp: <portnummer> <br>
-  sudo kill -9 <PID> <br>
+  sudo lsof -i tcp: [portnummer] <br>
+  sudo kill -9 [PID] <br>
