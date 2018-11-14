@@ -9,3 +9,9 @@ Rufen Sie hierzu die GETALL-Methode (mit der Funktion getAll()) oder die GET-Met
 Starten Sie nun das Notebook des Clients.
 
 ## 3. Überprüfen Sie, ob die erhaltenen Daten richtig sind.
+
+## Fehlerbehebung 
+Wenn der Fehler "Socket already in use" kommt, muss man die Prozesse auf den Port beenden, sodass er wieder freigegeben ist. 
+Im Terminal in Mac: 
+  sudo lsof -i tcp: <portnummer>
+  sudo kill -9 <PID>
